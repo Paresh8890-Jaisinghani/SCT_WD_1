@@ -1,0 +1,21 @@
+.nav{
+    display: flex; 
+    width: 100%;
+    align-items: center;
+    height: 100px;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.842);
+    color: white;
+}
+
+a{
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+}
+
+.nav a :hover{
+   color: rgb(105, 87, 224);
+   text-decoration: underline solid transparent;
+   transition: text-decoration 0.8s ease-in;
+}
