@@ -1,5 +1,12 @@
 .head{
   margin-top: 30%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.arrow{
+  font-size: 80px;
+  margin-top: 30%;
   text-align: center;
 }
   

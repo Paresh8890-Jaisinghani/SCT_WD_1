@@ -6,12 +6,15 @@ import About from "./components/about.js"
 import Contact from './components/contact';
 import Features from './components/features';
 import Navbar from './components/navbar';
+import { FaArrowCircleDown } from "react-icons/fa";
 function App() {
   return (
     <>
     <div className="App">
       <Navbar/>
-      
+      <div className="arrow">
+        <FaArrowCircleDown color='#002c6d'/>
+      </div>
     <BrowserRouter>
     <Routes>
       <Route path='/' element ={<Home/>}></Route>
