@@ -77,3 +77,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 2.npm i react-router-dom
 3.using BrowserRouter,Routes,Route for different pages
 4.using react-icons for arrow 
+
+
+### BrowserRouter ###
+. Listening to the url changes and ensuring that correct react components gets render on Route call or Link call
+. bridge of communication between appication url and react components
+
+### Route ###
+. Associate a specific component with a particular URL
+. Helps in creating dynamic and responsive ui 

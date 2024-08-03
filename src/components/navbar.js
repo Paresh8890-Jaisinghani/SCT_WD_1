@@ -1,14 +1,30 @@
 import React from "react";
+import { useState } from "react";
 import '../stylesheet/navbar.css'
 
 
 
 
 const Navbar = () => {
-    return (
-        <div className="nav">
+   
+    const [colorchange,setcolorcolochange] = useState(false);
 
-            <a href="/"><div className="link">Home</div></a>
+    const changenavbarcolor =()=>{
+       
+            if(window.scrollY >= 80){
+                setcolorcolochange(true);
+            }
+            else{
+                setcolorcolochange(false);
+            }
+    }
+
+    window.addEventListener("scroll",changenavbarcolor);
+
+    return (
+        <div className="nav"  id = {colorchange ? "navbarcolor" : "navcolor"}>
+
+            <a  href="/"><div className="link">Home</div></a>
 
 
             <a href="/about"><div className="link">About</div></a>
