@@ -86,3 +86,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Route ###
 . Associate a specific component with a particular URL
 . Helps in creating dynamic and responsive ui 
+
+
+### UseState ###
+. Let's you add state to functional components
+. Takes some initial state and returns two values , first is the state and second is the update function
+. uses stack for rendering data

@@ -20,7 +20,7 @@ const Navbar = () => {
     }
 
     window.addEventListener("scroll",changenavbarcolor);
-
+    
     return (
         <div className="nav"  id = {colorchange ? "navbarcolor" : "navcolor"}>
 
