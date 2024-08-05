@@ -9,9 +9,10 @@ import Navbar from './components/navbar';
 import { FaArrowCircleDown } from "react-icons/fa";
 function App() {
   return (
+
     <>
-    <div className="App">
-      <Navbar/>
+      <div className="App"> *
+       <Navbar/>
       <div className="arrow">
         <FaArrowCircleDown color='#002c6d'/>
       </div>
@@ -22,11 +23,12 @@ function App() {
       <Route path='/contact' element ={<Contact/>}></Route>
       <Route path='/features' element = {<Features/>}></Route>
     </Routes>
-    </BrowserRouter>
-  
-    </div>
-     
-     
+    </BrowserRouter> 
+
+
+       </div>
+
+      
     </>
   );
 }
